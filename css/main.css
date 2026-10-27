@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5f7f5;
+}
+
+.nav-item {
+    color: white;
+    font-weight: bold;
+}
+
+.py-5 h2 {
+    margin-top: 20px;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)),
+    url("../assets/images/lago_federa.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 70vh;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.glass-container {
+    background: #19875488; /* Must be semi-transparent */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px); /* Safari support */
+
+    padding: 32px;
+
+    border-radius: 32px;
+    border-color: #198754;
+    border-style: solid;
+    border: 4px;
+}
+
+.section-title {
+    color: #198754;
+    font-weight: bold;
+    padding-top: 32px;
+}
+
+#agenda-2030 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#agenda-2030 img {
+    width: 80%;
+}
+
+.little-card-ball {
+    border-radius: 50%;
+    border-style: dotted;
+    text-align: center;
+
+    font-size: small;
+
+    position: absolute;
+    top: -20px;
+    right: 46%;
+}
+
+.corporate-section-title {
+    padding-top: 0;
+    font-style: italic;
+}
+
+.corporate-section {
+    background-color: #eef8ef;
+}
+
+.carousel-item {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 12px 0;
+}
+
+.carousel-item img {
+    border-radius: 20px;
+}
+
+.carousel-item p {
+    margin-top: 12px;
+    margin-bottom: 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: scale 100ms ease-in-out !important;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    scale: 110%;
+}
+
+.news-img-strip {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 180px;
+    width: 70%;
+    gap: 16px;
+
+    transition: scale 250ms ease-in-out !important;
+}
+
+.news-img-strip:hover {
+    scale: 102%;
+}
+
+.news-img-strip img {
+    max-height: inherit;
+}
+
+.news-img-1 {
+    max-width: 75%;
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
+}
+
+.news-img-2 {
+    max-width: 25%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.impact-card {
+    transition: 0.3s;
+}
+
+.impact-card:hover {
+    transform: translateY(-5px);
+}
+
+.conclusion-card {
+    transition: scale 250ms ease-in-out !important;
+}
+
+.conclusion-card:hover {
+    scale: 101%;
+}
+
+.stat-box {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+footer {
+    background-color: #1f4028;
+    color: white;
+}
+
+.footer-about {
+    color: gray;
+    padding-top: 8px;
+}
+
+footer a {
+    text-decoration-color: white;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
